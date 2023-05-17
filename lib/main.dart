@@ -16,6 +16,7 @@ class PalotaAssessmentApp extends StatelessWidget {
       theme: ThemeData.dark(useMaterial3: true),
       initialRoute: AppRoutes.startUp,
       onGenerateRoute: AppRoutes.onGenerateRoute,
+      debugShowCheckedModeBanner: false,
     );
   }
 }
